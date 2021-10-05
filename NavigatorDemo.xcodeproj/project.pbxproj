@@ -10,11 +10,16 @@
 		C6AD2A38270BF13600D13BED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A37270BF13600D13BED /* AppDelegate.swift */; };
 		C6AD2A3A270BF13600D13BED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A39270BF13600D13BED /* SceneDelegate.swift */; };
 		C6AD2A3C270BF13600D13BED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A3B270BF13600D13BED /* ViewController.swift */; };
-		C6AD2A3F270BF13600D13BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AD2A3D270BF13600D13BED /* Main.storyboard */; };
 		C6AD2A41270BF13A00D13BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6AD2A40270BF13A00D13BED /* Assets.xcassets */; };
 		C6AD2A44270BF13A00D13BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AD2A42270BF13A00D13BED /* LaunchScreen.storyboard */; };
 		C6AD2A4F270BF13A00D13BED /* NavigatorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A4E270BF13A00D13BED /* NavigatorDemoTests.swift */; };
 		C6AD2A5A270BF13A00D13BED /* NavigatorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A59270BF13A00D13BED /* NavigatorDemoUITests.swift */; };
+		C6AD2A68270C020C00D13BED /* ViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A67270C020C00D13BED /* ViewController2ViewController.swift */; };
+		C6AD2A6C270C05EE00D13BED /* UIApplication+KeyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A6B270C05EE00D13BED /* UIApplication+KeyWindow.swift */; };
+		C6AD2A6E270C061300D13BED /* KKNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A6D270C061300D13BED /* KKNavigator.swift */; };
+		C6AD2A70270C0C5400D13BED /* UINavigationController+animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A6F270C0C5400D13BED /* UINavigationController+animations.swift */; };
+		C6AD2A72270C0CC300D13BED /* UINavigationController+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A71270C0CC300D13BED /* UINavigationController+ViewController.swift */; };
+		C6AD2A74270C0CEA00D13BED /* UIApplication+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD2A73270C0CEA00D13BED /* UIApplication+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		C6AD2A37270BF13600D13BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6AD2A39270BF13600D13BED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C6AD2A3B270BF13600D13BED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C6AD2A3E270BF13600D13BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6AD2A40270BF13A00D13BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6AD2A43270BF13A00D13BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6AD2A45270BF13A00D13BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		C6AD2A55270BF13A00D13BED /* NavigatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AD2A59270BF13A00D13BED /* NavigatorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorDemoUITests.swift; sourceTree = "<group>"; };
 		C6AD2A5B270BF13A00D13BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AD2A67270C020C00D13BED /* ViewController2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2ViewController.swift; sourceTree = "<group>"; };
+		C6AD2A6B270C05EE00D13BED /* UIApplication+KeyWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+KeyWindow.swift"; sourceTree = "<group>"; };
+		C6AD2A6D270C061300D13BED /* KKNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKNavigator.swift; sourceTree = "<group>"; };
+		C6AD2A6F270C0C5400D13BED /* UINavigationController+animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+animations.swift"; sourceTree = "<group>"; };
+		C6AD2A71270C0CC300D13BED /* UINavigationController+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+ViewController.swift"; sourceTree = "<group>"; };
+		C6AD2A73270C0CEA00D13BED /* UIApplication+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+UIViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,9 @@
 			children = (
 				C6AD2A37270BF13600D13BED /* AppDelegate.swift */,
 				C6AD2A39270BF13600D13BED /* SceneDelegate.swift */,
-				C6AD2A3B270BF13600D13BED /* ViewController.swift */,
-				C6AD2A3D270BF13600D13BED /* Main.storyboard */,
+				C6AD2A6B270C05EE00D13BED /* UIApplication+KeyWindow.swift */,
+				C6AD2A6A270C05D100D13BED /* KKNavigator */,
+				C6AD2A69270C05C300D13BED /* Pages */,
 				C6AD2A40270BF13A00D13BED /* Assets.xcassets */,
 				C6AD2A42270BF13A00D13BED /* LaunchScreen.storyboard */,
 				C6AD2A45270BF13A00D13BED /* Info.plist */,
@@ -126,6 +137,26 @@
 				C6AD2A5B270BF13A00D13BED /* Info.plist */,
 			);
 			path = NavigatorDemoUITests;
+			sourceTree = "<group>";
+		};
+		C6AD2A69270C05C300D13BED /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				C6AD2A3B270BF13600D13BED /* ViewController.swift */,
+				C6AD2A67270C020C00D13BED /* ViewController2ViewController.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		C6AD2A6A270C05D100D13BED /* KKNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				C6AD2A6D270C061300D13BED /* KKNavigator.swift */,
+				C6AD2A6F270C0C5400D13BED /* UINavigationController+animations.swift */,
+				C6AD2A71270C0CC300D13BED /* UINavigationController+ViewController.swift */,
+				C6AD2A73270C0CEA00D13BED /* UIApplication+UIViewController.swift */,
+			);
+			path = KKNavigator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +264,6 @@
 			files = (
 				C6AD2A44270BF13A00D13BED /* LaunchScreen.storyboard in Resources */,
 				C6AD2A41270BF13A00D13BED /* Assets.xcassets in Resources */,
-				C6AD2A3F270BF13600D13BED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +290,12 @@
 			files = (
 				C6AD2A3C270BF13600D13BED /* ViewController.swift in Sources */,
 				C6AD2A38270BF13600D13BED /* AppDelegate.swift in Sources */,
+				C6AD2A72270C0CC300D13BED /* UINavigationController+ViewController.swift in Sources */,
+				C6AD2A70270C0C5400D13BED /* UINavigationController+animations.swift in Sources */,
+				C6AD2A74270C0CEA00D13BED /* UIApplication+UIViewController.swift in Sources */,
+				C6AD2A68270C020C00D13BED /* ViewController2ViewController.swift in Sources */,
+				C6AD2A6E270C061300D13BED /* KKNavigator.swift in Sources */,
+				C6AD2A6C270C05EE00D13BED /* UIApplication+KeyWindow.swift in Sources */,
 				C6AD2A3A270BF13600D13BED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C6AD2A3D270BF13600D13BED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6AD2A3E270BF13600D13BED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C6AD2A42270BF13A00D13BED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
